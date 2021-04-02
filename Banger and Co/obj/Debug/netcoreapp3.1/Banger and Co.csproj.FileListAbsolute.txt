@@ -1,0 +1,196 @@
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csprojAssemblyReference.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.AssemblyInfoInputs.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.AssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorAssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.TagHelpers.input.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.TagHelpers.output.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorCoreGenerate.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorTargetAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorTargetAssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\appsettings.Development.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\appsettings.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.exe
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.deps.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.runtimeconfig.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.runtimeconfig.dev.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.Views.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.Views.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.Views.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csproj.CopyComplete
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\staticwebassets\Banger and Co.StaticWebAssets.Manifest.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\staticwebassets\Banger and Co.StaticWebAssets.xml
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.genruntimeconfig.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Join.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignIn.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csproj.CoreCompileInputs.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.MvcApplicationPartsAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\appsettings.Development.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\appsettings.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.exe
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.deps.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.runtimeconfig.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.runtimeconfig.dev.json
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.Views.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Banger and Co.Views.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csprojAssemblyReference.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.AssemblyInfoInputs.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.AssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csproj.CoreCompileInputs.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.MvcApplicationPartsAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorAssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.TagHelpers.input.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.TagHelpers.output.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorCoreGenerate.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Join.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignIn.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorTargetAssemblyInfo.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.RazorTargetAssemblyInfo.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.Views.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.csproj.CopyComplete
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\staticwebassets\Banger and Co.StaticWebAssets.Manifest.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\staticwebassets\Banger and Co.StaticWebAssets.xml
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Banger and Co.genruntimeconfig.cache
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\User\Verify.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\User\AccessDenied.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Booking\Index.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Booking\MakeBooking.cshtml.g.cs
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll

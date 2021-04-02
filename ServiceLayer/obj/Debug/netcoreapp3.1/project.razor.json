@@ -1,0 +1,19 @@
+{
+  "FilePath": "x:\\User\\Documents\\College\\3rd Year\\Sem 1\\Assignments\\EIRLSS Individual\\Banger and Co\\ServiceLayer\\ServiceLayer.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

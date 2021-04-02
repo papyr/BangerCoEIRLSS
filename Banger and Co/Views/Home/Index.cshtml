@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+@model ViewModel
+
+@if (Model.Admin != false)
+{
+    <h3 id="admin" hidden>admin</h3>
+}
+
+<form name="search" asp-action="GetAvailableVehicles" asp-controller="Booking" method="POST"></form>
+
+<div class="home">
+    <div class="make_booking home">
+        <div class="make_booking_block">
+            <label class="make_booking_block_title">BOOK A VEHICLE</label>
+            <div class="make_booking_block_search">
+                <label>SEARCH FOR <br>A VEHICLE</label>
+                <input form="search" type="text" name="vehicle" id="vehicle" placeholder="Search using maker or model">
+            </div>
+            <label class="make_booking_block_searchhint">Leave empty to show all available vehicles</label>
+            <div class="make_booking_block_dates">
+                <div class="make_booking_block_dates_pickup">
+                    <label>PICK-UP DATE <br>& TIME</label>
+                    <div>
+                        <input form="search" type="date" name="pickupdate" id="pickupdate" required>
+                        <input form="search" type="time" name="pickuptime" id="pickuptime" value="08:00" min="08:00" max="18:00" required>
+                    </div>
+                </div>
+                <div class="make_booking_block_dates_dropoff">
+                    <label>DROP-OFF DATE <br>& TIME</label>
+                    <div>
+                        <input form="search" type="date" name="dropoffdate" id="dropoffdate" required>
+                        <input form="search" type="time" name="dropofftime" id="dropofftime" value="08:00" min="08:00" max="18:00" required>
+                    </div>
+                </div>
+            </div>
+            <div class="make_booking_block_button">
+                <button form="search" type="submit">SEARCH FOR VEHICLES <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" /></svg></button>
+            </div>
+        </div>
+    </div>
+    <div class="home_content">
+        <div class="home_content_dettol">
+            <img src="/Images/b&codettolslogan.png">
+        </div>
+        <div class="home_content_new">
+            <img src="/Images/m850.jpg">
+            <div>
+                <label>This month's latest addition to our fleet:<br><span>BMW M8 Gran Coupé</span></label>
+                <a href="">VIEW VEHICLE</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        //if ($("#admin").html() == "admin") {
+        //    location.href = "/Admin";
+        //}
+    });
+</script>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Verify";
+}
+
+@model ViewModel
+
+<form asp-controller="User" asp-action="Verify" name="verifyform"></form>
+
+<div class="verify">
+    <div id="verifyfirst">
+        <label class="verify_step">One more step</label>
+        <div class="verify_form">
+            <div class="verify_form_license">
+                <label>Driver's license: </label>
+                <input type="file" form="verifyform" name="licenseimg" id="licenseimg" required />
+            </div>
+            <div class="verify_form_additional">
+                <label>Additonal identification: </label>
+                <label>(Insurance, utility bills etc)</label>
+                <input type="file" form="verifyform" name="idimg" id="idimg" required />
+            </div>
+            <label class="verify_skip">If you choose to skip, you will be required to upload the above documents prior to making a booking</label>
+            <div class="verify_form_buttons">
+                <button form="verifyform" type="submit">Continue</button>
+                <button asp-controller="Home" asp-action="Index">Skip for now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+</script>

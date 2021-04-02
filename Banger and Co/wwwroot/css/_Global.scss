@@ -1,0 +1,113 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+select,
+input{
+    color: black;
+    border-radius: 30px;
+    border: 2px solid gray;
+    padding: .5rem 1rem;
+    width: 15rem;
+
+    @media screen and (min-width: $tablet) {
+        width: 20rem;
+    }
+    
+    // &[type="number"]{
+    // }
+
+    &:focus{
+        border: 2px solid $blue;
+        outline: none;
+    }
+
+    &:hover{
+        border: 2px solid $blue;
+        transition: .3s ease-in;
+    }
+}
+
+button{
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid gray;
+    padding: .5rem 2rem;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+label{
+
+    &.muted{
+        color: gray;
+        font-size: 13px;
+    }
+
+    &.error{
+        color: red;
+        font-size: 14px;
+        margin-top: .5rem;
+    }
+
+    &.error{
+        color: red;
+        font-size: 14px;
+        margin-top: .5rem;
+
+        &_block{
+            visibility: hidden;
+            color: red;
+            font-size: 12px;
+            background-color: #fbbcbc;
+            padding: .5rem 1rem;
+            border-radius: 15px;
+            border: 1px solid red;
+            min-height: 2rem;
+            font-weight: bold;
+            margin-top: 0;
+
+            &.active{
+                visibility: visible;
+                text-align: left;
+            }
+        }
+    }
+}
+
+    
+.loading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    div {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin: 2rem 0.3rem 2rem 0.3rem;
+        background: $bluebell;
+        border-radius: 50%;
+        animation: 0.9s bounce infinite alternate;
+
+        &:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+    }
+}
+
+@keyframes bounce {
+    to {
+        opacity: 0.3;
+        transform: translate3d(0, -1rem, 0);
+    }
+}

@@ -1,0 +1,420 @@
+.header{
+    width: 100%;
+    height: 7rem;
+    background: linear-gradient(#10253A,#1C4368);
+    top: 0%;
+    position: fixed;
+    margin-bottom: .5rem;
+    z-index: 1; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (min-width: $tablet) {
+        height: 11.5vh;
+        margin-bottom: 0vh;
+    }
+
+    svg[class^="header_logo"]{
+        position: relative;
+        width: 100%;
+        transform: scale(.75);
+        stroke-width: 2px;
+        stroke: white;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        display: inline-block;
+
+        @keyframes outline {
+            from {
+              stroke-dashoffset: 1000;
+            }
+            to {
+              stroke-dashoffset: 0;
+            }
+        }
+
+        .cls-1{
+            fill: white;
+            transition: .3s ease-out;
+        }
+
+        &:hover{
+            animation: outline 3s linear infinite;
+            .cls-1{
+                fill: $blue;
+            }
+        }
+    }
+    &_logo_mobile{
+        width: 75% !important;
+        transform: scale(.6) !important;
+    }
+
+    &_nav_mobile{
+        //display: none;
+        position: fixed;
+        z-index: 1;
+        background: linear-gradient(#204669,#10253A);
+        width: 100%;
+        //padding: 1rem 1.5rem;
+        box-shadow: 0px 3px 0px 0px rgb(207, 207, 207);
+        height: 0;
+        overflow: hidden;
+
+        span{
+            display: flex;
+            flex-wrap: wrap;
+            color: white;
+            font-weight: bold;
+            justify-content: space-between;
+            position: relative;
+            align-items: center;
+            padding: 1rem 5rem .5rem 2rem;
+            margin-bottom: .5rem;
+
+            &:last-of-type{
+                margin-bottom: 1rem;
+            } 
+
+            svg{
+                fill: white;
+                position: absolute;
+                right: 13%;
+                transition: .2s ease-out;
+            }
+
+            &.open{
+                svg{
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        &.show{
+            //display: block;
+            height: auto;
+        }
+
+        div[class^="header_nav_mobile_dropdown"]{
+            display: none;
+            background-color: white;
+            width: 100%;
+    
+            a{
+                display: flex;
+                flex-wrap: wrap;
+                text-decoration: none;
+                color: $darkgrey;
+                transition: .1s ease-out;
+                font-size: 14px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                position: relative;
+                padding: .75rem 0rem .75rem 3rem;
+    
+                svg{
+                    position: absolute;
+                    right: 13%;
+                    fill: $darkgrey;
+                    transition: .1s ease-out;
+                }
+    
+                &:hover{
+                    color: $blue;
+    
+                    svg{
+                        fill: $blue;
+                    }
+                }
+                &:not(:last-of-type){
+                    margin-bottom: .25rem;
+                }
+            }
+    
+            &.show{
+                display: block;
+                transition: .3s ease-out;
+            }
+        }
+    }
+    &_nav_desktop{
+        height: 100%;
+        display: flex;
+        width: 85%;
+        //align-items: center;
+
+        span{
+            //margin-right: 1.5rem;
+            padding: 0 1.5rem;
+            margin: 0 1.25rem;
+            cursor: pointer;
+            font-weight: bolder;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            &:first-of-type{
+                margin-left: 7rem;
+            }
+
+            label{
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                user-select: none;
+
+                &:after {
+                    bottom: 0;
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    left: 50%;
+                    position: absolute;
+                    background: white;
+                    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                    width: 0;
+                }
+                &:hover{
+                    &:after{
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+            }
+
+            &:hover{
+                color: white;
+                transition: .3s ease-in;
+
+                label{
+                    &:after{
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+            }
+
+            &.open{
+                background-color: white;
+                color: $blue;
+
+                label{
+                    &:after{
+                        background: $blue;
+                        width: 100%;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &_search{
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+
+        @media screen and (max-width: $tablet) {
+            margin-right: 0;
+            padding: 0 1rem;
+        }
+
+        &.desktop{
+            @media screen and (max-width: $tablet) {
+                display: none;
+            }
+        }
+
+        &_input{
+            background-color: rgba($color: #D1D1D1, $alpha: .3);
+            border-radius: 30px;
+            padding: 0.5rem 1.25rem;
+            border: none;
+            transition: .2s ease-in;
+            color: white;
+            width: auto;
+
+            @media screen and (max-width: $tablet) {
+                width: 100%;
+            }
+
+            &::placeholder{
+                color: lightgray;
+            }
+            &:focus{
+                border: 1px solid white;
+                outline: 0;
+            }
+            &:hover{
+                border: 1px solid white;
+                outline: 0;
+            }
+        }
+
+        &_img{
+            position: absolute;
+            right: 2%;
+            fill: lightgray;
+            transition: .2s ease-out;
+
+            @media screen and (max-width: $tablet) {
+                right: 7%;
+            }
+
+            &:hover{
+                fill: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &_signout{
+        display: none;
+        align-items: center;
+        margin-right: 2rem;
+
+        a{
+            display: inline-block;
+            position: relative;
+            font-weight: bold;
+            font-size: 16px;
+            color: red;
+            //padding: .25rem 1rem;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            transition: .3s ease-in;
+
+            &:after {
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: red;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+            }
+            
+            &:hover{
+                color: red;
+                //background-color: red;
+                cursor: pointer;
+                //color: white;
+
+                &:after{
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &_menu{
+        position: relative;
+        margin-right: 3rem;
+
+        span{
+            height: 4px;
+            max-width: 2.75rem;
+            width: 2.75rem;
+            background-color: white;
+            display: block;
+            border-radius: 30px;
+            transition: .25s ease-in-out;
+
+            &:not(:last-child){
+                margin-bottom: 0.35rem;
+            }
+        }
+
+        &.open{
+            span:nth-of-type(1){
+                transform: rotate(45deg);
+                margin-top: 7px;
+            }
+            span:nth-of-type(2){
+                width: 0%;
+                opacity: 0;
+            }
+            span:nth-of-type(3){
+                transform: rotate(-45deg);
+                margin-top: -19px;
+            }
+        }
+    }
+
+    div[class^="header_nav_dropdown"]{
+        display: none;
+        position: absolute;
+        top: 100%;
+        background-color: white;
+        //border: 1px solid gray;
+        z-index: 1;
+        width: 100%;
+        padding: 1rem 0rem;
+        box-shadow: 0px 3px 3px 0px rgb(207, 207, 207);
+
+        table{
+            width: 100%;
+            border-spacing: 20px 0;
+            tr{
+                &:nth-of-type(1){
+                    td{
+                        border-top: 1px solid gray;
+                        border-bottom: 1px solid gray; 
+                    }
+                }
+
+                td{
+                    //padding: 0 1rem .5rem 0;
+                    width: 33%;
+                    border-bottom: 1px solid gray; 
+                }
+            }
+        }
+
+        a{
+            display: flex;
+            flex-wrap: wrap;
+            text-decoration: none;
+            color: $darkgrey;
+            transition: .1s ease-out;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            position: relative;
+            padding: 1rem 1rem 1rem 0;
+
+            svg{
+                position: absolute;
+                right: 5%;
+                fill: $darkgrey;
+                transition: .1s ease-out;
+            }
+
+            &:hover{
+                color: $blue;
+
+                svg{
+                    fill: $blue;
+                }
+            }
+            &:not(:last-of-type){
+                margin-bottom: .25rem;
+            }
+        }
+
+        &.show{
+            display: block;
+            transition: .3s ease-out;
+        }
+    }
+}
