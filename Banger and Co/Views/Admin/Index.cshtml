@@ -808,6 +808,7 @@
 
     //User filter
     function filterRoleStatus(role, status) {
+        $(".admin_dashboard_content_users_loadmore").hide();
         $("#usersempty").hide();
 
         if ($("#usersearch").val().length !== 0) {
@@ -870,12 +871,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function filterRole(role) {
+        $(".admin_dashboard_content_users_loadmore").hide();
         $("#usersempty").hide();
 
         if ($("#usersearch").val().length !== 0) {
@@ -931,12 +934,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function filterStatus(status) {
+        $(".admin_dashboard_content_users_loadmore").hide();
         $("#usersempty").hide();
 
         if ($("#usersearch").val().length !== 0) {
@@ -992,12 +997,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function getAllUsers() {
+        $(".admin_dashboard_content_users_loadmore").hide();
         $("#usersempty").hide();
 
         $.ajax({
@@ -1034,12 +1041,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function searchUsers(keyword) {
+        $(".admin_dashboard_content_users_loadmore").hide();
         $("#usersempty").hide();
 
         $("admin_dashboard_content_users_filter_role button").removeClass("active");
@@ -1077,7 +1086,8 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -1230,7 +1240,8 @@
                     }
                 }, 1000);
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -1451,7 +1462,8 @@
                 $(".admin_dashboard_content_users_users_user." + usernum).empty();
                 $(".admin_dashboard_content_users_users_user." + usernum).append(data);
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -1608,9 +1620,10 @@
                         }
                     }
                 },
-                error: function () {
-                    alert("Something went wrong");
-                }
+                error: function (error) {
+                console.log(error);
+                alert("Something went wrong");
+            }
             });
         }
         else {
@@ -1639,7 +1652,8 @@
 
                 $("#useroverlay").addClass("active");
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -1901,7 +1915,8 @@
                     }
                 }, 1000);
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -2280,6 +2295,7 @@
     });
 
     function filterStatusType(status, type) {
+        $(".admin_dashboard_content_vehicles_loadmore").hide();
         $("#vehiclesempty").hide();
 
         if ($("#vehiclesearch").val().length !== 0) {
@@ -2354,12 +2370,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function filterType(type) {
+        $(".admin_dashboard_content_vehicles_loadmore").hide();
         $("#vehiclesempty").hide();
 
         if ($("#vehiclesearch").val().length !== 0) {
@@ -2427,12 +2445,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function filterVehicleStatus(status) {
+        $(".admin_dashboard_content_vehicles_loadmore").hide();
         $("#vehiclesempty").hide();
 
         if ($("#vehiclesearch").val().length !== 0) {
@@ -2482,12 +2502,14 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function getAllVehicles() {
+        $(".admin_dashboard_content_vehicles_loadmore").hide();
         $("#vehiclesempty").hide();
 
         $.ajax({
@@ -2524,16 +2546,18 @@
                     }, 1000);
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
     }
     function searchVehicles(keyword) {
+        $(".admin_dashboard_content_vehicles_loadmore").hide();
         $("#vehiclesempty").hide();
 
-        $("admin_dashboard_content_vehicles_filter_category button").removeClass("active");
-        $("admin_dashboard_content_vehicles_filter_status button").removeClass("active");
+        $(".admin_dashboard_content_vehicles_filter_type button").removeClass("active");
+        $(".admin_dashboard_content_vehicles_filter_status button").removeClass("active");
 
         $.ajax({
             type: "POST",
@@ -2563,7 +2587,8 @@
                         }
                 }
             },
-            error: function () {
+            error: function (error) {
+                console.log(error);
                 alert("Error while retrieving data");
             }
         });
@@ -2652,7 +2677,8 @@
                         });
                     }
                 },
-                error: function () {
+                error: function (error) {
+                    console.log(error);
                     alert("Something went wrong");
                 }
             });
@@ -2726,6 +2752,185 @@
 
 
     //Equipment Actions
+    $("#equipmentsearch").on("input", function (e) {
+        if (e.keyCode == 8) {
+            if ($(this).val().length < 3) {
+                $("#equipmentsearchlbl").css("color", "red");
+                searchEquipment("");
+            }
+            else {
+                $("#equipmentsearchlbl").css("color", "grey");
+
+                searchEquipment($("#equipmentsearch").val());
+            }
+        }
+        else {
+            if ($(this).val().length < 3) {
+                $("#equipmentsearchlbl").css("color", "red");
+            }
+            else {
+                $("#equipmentsearchlbl").css("color", "dimgrey");
+
+                searchEquipment($("#equipmentsearch").val());
+            }
+        }
+    });
+    $("#equipmentsearch").keyup(function (e) {
+        if (e.keyCode == 8) {
+            if ($(this).val().length < 3) {
+                $("#equipmentsearchlbl").css("color", "red");
+                searchEquipment("");
+            }
+            else {
+                $("#equipmentsearchlbl").css("color", "grey");
+
+                searchEquipment($("#equipmentsearch").val());
+            }
+        }
+    });
+    $("#equipmentsearch").focusout(function (e) {
+        if (e.keyCode == 8) {
+            if ($(this).val().length < 3) {
+                $("#equipmentsearchlbl").css("color", "red");
+            }
+            else {
+                $("#equipmentsearchlbl").css("color", "grey");
+            }
+        }
+        else {
+            if ($(this).val().length < 3 && $(this).val().length > 0) {
+                $("#equipmentsearchlbl").css("color", "red");
+            }
+            else {
+                $("#equipmentsearchlbl").css("color", "dimgrey");
+            }
+        }
+    });
+    $("#equipmentloadmore").click(function () {
+        $(".admin_dashboard_content_equipment_loadmore").hide();
+        $("#equipmentloading").show();
+
+        var url = null;
+        var type = null;
+        var status = null;
+        var c = 10 * $("#equipmentpage").val();
+
+        if ($("#equipmentsearch").val().length !== 0) {
+            url = '/Admin/GetEquipment?keyword=' + $("#equipmentsearch").val() + '&skip=' + c;
+        }
+        else {
+            url = '/Admin/GetEquipment?skip=' + c;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                setTimeout(function () {
+                    $(".admin_dashboard_content_equipment_equipment_table tbody").append(data);
+                    $("#equipmentloading").hide();
+                    $("#equipmentpage").val(parseInt($("#equipmentpage").val()) + 1);
+
+                    var calc = 10 * $("#equipmentpage").val();
+                    var calc1 = $("#numofequipment").val();
+                    var calc2 = $("#equipmentpage").val();
+                    if ($("#numofequipment").val() > $(".admin_dashboard_content_equipment_equipment_table tbody tr").length && $(".admin_dashboard_content_equipment_equipment_table tbody tr").length >= calc) {
+                        $(".admin_dashboard_content_equipment_loadmore").show();
+                    }
+                }, 1000);
+            },
+            error: function (error) {
+                console.log(error);
+                alert("Error while retrieving data");
+            }
+        });
+    });
+
+    function getAllEquipment() {
+        $(".admin_dashboard_content_equipment_loadmore").hide();
+        $("#equipmentempty").hide();
+
+        $.ajax({
+            type: "POST",
+            url: '/Admin/GetEquipment',
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                $("#equipmenttoploading").show();
+
+                if (data[0] != 0) {
+                    $("#equipmentpage").val(0);
+                    $("#numofequipment").val(data[0]);
+                    delete data[0];
+
+                    setTimeout(function () {
+                        $("#equipmenttoploading").hide();
+
+                        if (data.length != 0) {
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").empty();
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").append(data);
+
+                            $("#equipmentpage").val(parseInt($("#equipmentpage").val()) + 1);
+
+                            var calc = 10 * $("#equipmentpage").val();
+                            if ($("#numofequipment").val() > $(".admin_dashboard_content_equipment_equipment_table tbody tr").length && $(".admin_dashboard_content_equipment_equipment_table tbody tr").length >= calc) {
+                                $(".admin_dashboard_content_equipment_loadmore").show();
+                            }
+                        }
+                        else {
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").empty();
+                            $("#equipmentempty").show();
+                        }
+                    }, 1000);
+                }
+            },
+            error: function (error) {
+                console.log(error);
+                alert("Error while retrieving data");
+            }
+        });
+    }
+    function searchEquipment(keyword) {
+        $(".admin_dashboard_content_equipment_loadmore").hide();
+        $("#equipmentempty").hide();
+
+        $.ajax({
+            type: "POST",
+            url: '/Admin/GetEquipment?keyword=' + keyword,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                if (data[0] != 0) {
+                    $("#equipmentpage").val(0);
+                    $("#numofequipment").val(data[0]);
+                    delete data[0];
+
+                        if (data.length != 0) {
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").empty();
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").append(data);
+
+                            $("#equipmentpage").val(parseInt($("#equipmentpage").val()) + 1);
+
+                            var calc = 10 * $("#equipmentpage").val();
+                            if ($("#numofequipment").val() > $(".admin_dashboard_content_equipment_equipment_table tbody tr").length && $(".admin_dashboard_content_equipment_equipment_table tbody tr").length >= calc) {
+                                $(".admin_dashboard_content_equipment_loadmore").show();
+                            }
+                        }
+                        else {
+                            $(".admin_dashboard_content_equipment_equipment_table tbody").empty();
+                            $("#equipmentempty").show();
+                        }
+                }
+            },
+            error: function (error) {
+                console.log(error);
+                alert("Error while retrieving data");
+            }
+        });
+    }
+
     function enableAddEquipment() {
         $("#equipmentoverlay").addClass("active");
         $("#addequipmentoverlay").addClass("active");

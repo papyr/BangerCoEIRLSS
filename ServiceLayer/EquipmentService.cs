@@ -33,5 +33,26 @@ namespace ServiceLayer
         {
             return _context.Equipment.Skip(skip).Take(10).ToList();
         }
+
+
+        //SEARCH FUNCTIONS
+        public int SearchNameGetCount(string name)
+        {
+            return _context.Equipment.Where(p => p.EquipmentName.ToLower().Contains(name.ToLower())).Count();
+        }
+        public List<Equipment> SearchNameGet10(string name, int skip)
+        {
+            return _context.Equipment.Where(p => p.EquipmentName.ToLower().Contains(name.ToLower())).Skip(skip).Take(10).ToList();
+        }
+
+        public int SearchIdGetCount(string id)
+        {
+            return _context.Equipment.Where(p => p.Id.ToString().Contains(id)).Count();
+        }
+        public List<Equipment> SearchIdGet10(string id, int skip)
+        {
+            return _context.Equipment.Where(p => p.Id.ToString().Contains(id)).Skip(skip).Take(10).ToList();
+        }
+
     }
 }

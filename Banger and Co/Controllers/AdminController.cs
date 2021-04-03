@@ -563,10 +563,15 @@ namespace Banger_and_Co.Controllers
                         count = _vehicleService.SearchFuelGetCount(keyword);
                         vehciles = _vehicleService.SearchFuelGet10(keyword, skip);
                     }
-                    else if (_vehicleService.SearchYearGetCount(Int32.Parse(keyword)) != 0)
+                    else if (_vehicleService.SearchIdGetCount(keyword) != 0)
                     {
-                        count = _vehicleService.SearchYearGetCount(Int32.Parse(keyword));
-                        vehciles = _vehicleService.SearchYearGet10(Int32.Parse(keyword), skip);
+                        count = _vehicleService.SearchIdGetCount(keyword);
+                        vehciles = _vehicleService.SearchIdGet10(keyword, skip);
+                    }
+                    else if (_vehicleService.SearchYearGetCount(keyword) != 0)
+                    {
+                        count = _vehicleService.SearchYearGetCount(keyword);
+                        vehciles = _vehicleService.SearchYearGet10(keyword, skip);
                     }
                 }
                 else
@@ -714,6 +719,79 @@ namespace Banger_and_Co.Controllers
 
 
         //EQUIPMENT FUNCTIONS
+        [System.Web.Http.HttpPost]
+        public JsonResult GetEquipment([FromUri] int skip, string keyword)
+        {
+            List<string> html = new List<string>();
+            List<Equipment> equipment = new List<Equipment>();
+            int count = 0;
+
+            if (keyword != null)
+            {
+                if (!keyword.Equals(""))
+                {
+                    if (_equipmentService.SearchNameGetCount(keyword) != 0)
+                    {
+                        count = _equipmentService.SearchNameGetCount(keyword);
+                        equipment = _equipmentService.SearchNameGet10(keyword, skip);
+                    }
+                    else if (_equipmentService.SearchIdGetCount(keyword) != 0)
+                    {
+                        count = _equipmentService.SearchIdGetCount(keyword);
+                        equipment = _equipmentService.SearchIdGet10(keyword, skip);
+                    }
+                }
+                else
+                {
+                    count = _equipmentService.GetCount();
+                    if (skip == 0)
+                    {
+                        equipment = _equipmentService.Get10(0);
+                    }
+                    else
+                    {
+                        equipment = _equipmentService.Get10(skip);
+                    }
+                }
+            }
+            else
+            {
+                count = _equipmentService.GetCount();
+                if (skip == 0)
+                {
+                    equipment = _equipmentService.Get10(0);
+                }
+                else
+                {
+                    equipment = _equipmentService.Get10(skip);
+                }
+            }
+
+            if (equipment.Count != 0)
+            {
+                if (skip == 0)
+                {
+                    html.Add(count.ToString());
+                }
+
+                foreach (Equipment eqt in equipment)
+                {
+                    int index = equipment.IndexOf(eqt);
+
+                    string code = "<tr>"
+                        + "<td>" + eqt.Id + "</td>"
+                        + "<td>" + eqt.EquipmentName + "</td>" +
+                        "<td>" + eqt.NumberOfPieces + "</td>" +
+                        "<td><button onclick='equipmentEdit(" + eqt.Id + ", 0, " + index + ")'>More Details</button><button onclick='equipmentEdit(" + eqt.Id + ", 1, " + index + ")'>Edit</button></td>" +
+                        "</tr>";
+
+                    html.Add(code);
+                }
+            }
+
+            return Json(html);
+        }
+
         [System.Web.Http.HttpPost]
         public async Task<JsonResult> AddEquipment(string name, string stock, IFormFile imageFile)
         {

@@ -42,49 +42,58 @@ namespace ServiceLayer
 
 
         //SEARCH FUNCTIONS
-        public int SearchModelGetCount(string keyword)
+        public int SearchModelGetCount(string model)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Model.ToLower().Contains(keyword.ToLower())).Count();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Model.ToLower().Contains(model.ToLower())).Count();
         }
-        public List<Vehicle> SearchModelGet10(string keyword, int skip)
+        public List<Vehicle> SearchModelGet10(string model, int skip)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Model.ToLower().Contains(keyword.ToLower())).Skip(skip).Take(10).ToList();
-        }
-
-        public int SearchManufacturerGetCount(string keyword)
-        {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Manufacturer.ManufacturerName.ToLower().Contains(keyword.ToLower())).Count();
-        }
-        public List<Vehicle> SearchManufacturerGet10(string keyword, int skip)
-        {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Manufacturer.ManufacturerName.ToLower().Contains(keyword.ToLower())).Skip(skip).Take(10).ToList();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Model.ToLower().Contains(model.ToLower())).Skip(skip).Take(10).ToList();
         }
 
-        public int SearchCategoryGetCount(string keyword)
+        public int SearchManufacturerGetCount(string manufacturer)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Category.ToLower().Contains(keyword.ToLower())).Count();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Manufacturer.ManufacturerName.ToLower().Contains(manufacturer.ToLower())).Count();
         }
-        public List<Vehicle> SearchCategoryGet10(string keyword, int skip)
+        public List<Vehicle> SearchManufacturerGet10(string manufacturer, int skip)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Category.ToLower().Contains(keyword.ToLower())).Skip(skip).Take(10).ToList();
-        }
-
-        public int SearchFuelGetCount(string keyword)
-        {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.FuelType.ToLower().Contains(keyword.ToLower())).Count();
-        }
-        public List<Vehicle> SearchFuelGet10(string keyword, int skip)
-        {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.FuelType.ToLower().Contains(keyword.ToLower())).Skip(skip).Take(10).ToList();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Manufacturer.ManufacturerName.ToLower().Contains(manufacturer.ToLower())).Skip(skip).Take(10).ToList();
         }
 
-        public int SearchYearGetCount(int keyword)
+        public int SearchCategoryGetCount(string category)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Year == keyword).Count();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Category.ToLower().Contains(category.ToLower())).Count();
         }
-        public List<Vehicle> SearchYearGet10(int keyword, int skip)
+        public List<Vehicle> SearchCategoryGet10(string category, int skip)
         {
-            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Year == keyword).Skip(skip).Take(10).ToList();
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Category.ToLower().Contains(category.ToLower())).Skip(skip).Take(10).ToList();
+        }
+
+        public int SearchFuelGetCount(string fuel)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.FuelType.ToLower().Contains(fuel.ToLower())).Count();
+        }
+        public List<Vehicle> SearchFuelGet10(string fuel, int skip)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.FuelType.ToLower().Contains(fuel.ToLower())).Skip(skip).Take(10).ToList();
+        }
+
+        public int SearchIdGetCount(string id)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Id.ToString().Contains(id)).Count();
+        }
+        public List<Vehicle> SearchIdGet10(string id, int skip)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Id.ToString().Contains(id)).Skip(skip).Take(10).ToList();
+        }
+
+        public int SearchYearGetCount(string year)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Year.ToString().Contains(year)).Count();
+        }
+        public List<Vehicle> SearchYearGet10(string year, int skip)
+        {
+            return _context.Vehicles.Include(ui => ui.Manufacturer).Where(p => p.Year.ToString().Contains(year)).Skip(skip).Take(10).ToList();
         }
 
         //public int SearchStatusTypeGetCount(string status, string type)
