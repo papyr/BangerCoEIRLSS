@@ -252,22 +252,6 @@
                                 <td><button onclick="bookingEdit(@booking.Id,0,@index)">More Details</button><button onclick="bookingEdit(@booking.Id,1,@index)">Edit</button></td>
                             </tr>
                         }
-                            <tr>
-                                <td>equipment.Id</td>
-                                <td>quipment.EquipmentName</td>
-                                <td>equipment.NumberOfPieces</td>
-                                <td>equipment.NumberOfPieces</td>
-                                <td>equipment.</td>
-                                <td><div><button onclick="">More Details</button><button>Edit</button></div></td>
-                            </tr>
-                            <tr>
-                                <td>equipment.Id</td>
-                                <td>quipment.EquipmentName</td>
-                                <td>equipment.NumberOfPieces</td>
-                                <td>equipment.NumberOfPieces</td>
-                                <td>equipment.</td>
-                                <td><div><button onclick="">More Details</button><button>Edit</button></div></td>
-                            </tr>
                     </tbody>
                 </table>
             </div>
@@ -461,12 +445,17 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input class="admin_dashboard_content_equipment_popup_addequipment_content_form_stock" autocomplete="off" type="text" placeholder="Number of Pieces" name="stock" id="equipmentstock" pattern="^[0-9]*$" required>
+                                        <select class="admin_dashboard_content_equipment_popup_addequipment_content_form_type" id="equipmenttype">
+                                            <option value="Select Type" selected>Select Type</option>
+                                            <option value="Vehicle Equipment">Vehicle Equipment</option>
+                                            <option value="Child Seats and Strollers">Baby Seat</option>
+                                            <option value="Other">Other</option>
+                                        </select>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input class="admin_dashboard_content_vehicles_popup_addequipment_content_form_img" type="file" id="equipmentimage" accept="image/*" required="">
+                                        <input class="admin_dashboard_content_equipment_popup_addequipment_content_form_stock" autocomplete="off" type="text" placeholder="Number of Pieces" name="stock" id="equipmentstock" pattern="^[0-9]*$" required>
                                     </td>
                                 </tr>
                                 <tr>
@@ -498,6 +487,7 @@
                         <tr>
                             <th>Equipment ID</th>
                             <th>Name</th>
+                            <th>Type</th>
                             <th>Number of Pieces</th>
                             <th></th>
                         </tr>
@@ -510,6 +500,7 @@
                             <tr>
                                 <td>@equipment.Id</td>
                                 <td>@equipment.EquipmentName</td>
+                                <td>@equipment.Type</td>
                                 <td>@equipment.NumberOfPieces</td>
                                 <td><button onclick="equipmentEdit(@equipment.Id,0,@index)">More Details</button><button onclick="equipmentEdit(@equipment.Id,0,@index)">Edit</button></td>
                             </tr>
@@ -1739,9 +1730,10 @@
 
                     $("#bookingoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
         else  {
@@ -1759,9 +1751,10 @@
 
                     $("#bookingoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
     }
@@ -2712,9 +2705,10 @@
 
                     $("#vehicleoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
         else  {
@@ -2732,9 +2726,10 @@
 
                     $("#vehicleoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
     }
@@ -2944,27 +2939,36 @@
 
     function addEquipment() {
         var name = $("#equipmentname").val();
+        var type = $("#equipmenttype").val();
         var stock = $("#equipmentstock").val();
-        var equipmentimage = $('#equipmentimage')[0].files[0];
-        let formData = new FormData()
+        
+        var equipment = {
+            EquipmentName: name, 
+            Type: type, 
+            NumberOfPieces: parseInt(stock)
+        };
+        console.log(equipment);
+        console.log(JSON.stringify(equipment));
 
-        formData.append('name', name);
-        formData.append('stock', stock);
-        formData.append('imageFile', equipmentimage);
+        var formData = new FormData();
+        formData.append("equipmentName", name);
+        formData.append("type", type);
+        formData.append("stock", stock);
 
-        console.log(formData);
-
+        $("#equipmentname").css("border", "2px solid gray");
         $("#equipmentname").css("border", "2px solid gray");
         $("#equipmentstock").css("border", "2px solid gray");
 
-        if (name != "" && stock != "") {
+        if (name != "" && stock != "" && type != "") {
             $.ajax({
                             url : '/Admin/AddEquipment',
                             type: 'POST',
                             dataType: 'json',
+                            /*data: JSON.stringify(equipment),
+                            contentType: "application/json; charset=utf-8",*/
                             data: formData,
-                            processData: false,
                             contentType: false,
+                            processData: false,
                             success: function (data) {
                                     if (data == "Success") {
                                         closeAddEquipment();
@@ -2975,17 +2979,18 @@
                                         alert("Error while adding equipment");
                                     }
                                 },
-                            error: function () {
+                            error: function (error) {
                                 alert("Error while adding equipment");
+                                console.log(error);
                             }
                         }).done(function(response) {
-                            alert(response);
                             console.log(response);
                         });
         }
         else {
             $("#equipmentname").css("border", "2px solid red");
             $("#equipmentstock").css("border", "2px solid red");
+            $("#equipmenttype").css("border", "2px solid red");
             alert("All fields are required!");
         }
     }
@@ -3006,9 +3011,10 @@
 
                     $("#equipmentoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
         else  {
@@ -3026,9 +3032,10 @@
 
                     $("#equipmentoverlay").addClass("active");
                 },
-                error: function () {
-                    alert("Error while retrieving data");
-                }
+                error: function (error) {
+                                alert("Error while retrieving data");
+                                console.log(error);
+                            }
             });
         }
     }

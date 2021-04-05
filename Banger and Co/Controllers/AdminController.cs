@@ -13,6 +13,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Http;
+using FromBodyAttribute = System.Web.Http.FromBodyAttribute;
+using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 
 namespace Banger_and_Co.Controllers
 {
@@ -80,7 +82,7 @@ namespace Banger_and_Co.Controllers
         }
 
         //USER FUNCTIONS
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult GetUsers([FromUri] int skip, string keyword, string role, string status)
         {
             List<string> html = new List<string>();
@@ -284,7 +286,7 @@ namespace Banger_and_Co.Controllers
             return Json(html);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult GetEditUserDetails([FromUri] int id, int index)
         {
             String html = null;
@@ -399,7 +401,7 @@ namespace Banger_and_Co.Controllers
             return Json(html);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult GetUpdatedUserDetails([FromUri] int id, int index)
         {
             String html = null;
@@ -474,7 +476,7 @@ namespace Banger_and_Co.Controllers
             return Json(html);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult RemoveBlacklist([FromUri] int id)
         {
             string result = _userService.RemoveBlacklist(id);
@@ -482,7 +484,7 @@ namespace Banger_and_Co.Controllers
             return Json(result);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<JsonResult> ToggleAdminPriviledgeAsync([FromUri] int id)
         {
             string result = await _userService.ToggleAdminPriviledgeAsync(id);
@@ -490,7 +492,7 @@ namespace Banger_and_Co.Controllers
             return Json(result);
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult RemoveUser([FromUri] int id)
         {
             //int numOfActiveBookings = _bookingService.GetCountOfUserActive(id);
@@ -504,7 +506,7 @@ namespace Banger_and_Co.Controllers
             return Json("Active");
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<JsonResult> AddAdmin([FromUri] string name, string email, string phone, string pwd)
         {
             string username = Regex.Replace(name, @"\s+", "");
@@ -532,7 +534,7 @@ namespace Banger_and_Co.Controllers
 
 
         //VEHICLE FUNCTIONS
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult GetVehicles([FromUri] int skip, string keyword, string type, string status)
         {
             List<string> html = new List<string>();
@@ -663,8 +665,8 @@ namespace Banger_and_Co.Controllers
             return Json(html);
         }
 
-        [System.Web.Http.HttpPost]
-        public async Task<JsonResult> AddVehicle(string manufacturer, string model, int year, string color, string category, string fuelType, string plate, string rate, IFormFile imageFile)
+        [HttpPost]
+        public JsonResult AddVehicle(string manufacturer, string model, int year, string color, string category, string fuelType, string plate, string rate, IFormFile imageFile)
         {
             string location = "/Vehicle Images";
             string dbName = null;
@@ -706,8 +708,8 @@ namespace Banger_and_Co.Controllers
             return Json("Failure");
         }
 
-        [System.Web.Http.HttpPost]
-        public async Task<JsonResult> CheckPlate([FromUri] string plate)
+        [HttpPost]
+        public JsonResult CheckPlate([FromUri] string plate)
         {
             if (_vehicleService.CheckPlate(plate) == null)
             {
@@ -719,7 +721,7 @@ namespace Banger_and_Co.Controllers
 
 
         //EQUIPMENT FUNCTIONS
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public JsonResult GetEquipment([FromUri] int skip, string keyword)
         {
             List<string> html = new List<string>();
@@ -781,6 +783,7 @@ namespace Banger_and_Co.Controllers
                     string code = "<tr>"
                         + "<td>" + eqt.Id + "</td>"
                         + "<td>" + eqt.EquipmentName + "</td>" +
+                        "<td>" + eqt.Type + "</td>" +
                         "<td>" + eqt.NumberOfPieces + "</td>" +
                         "<td><button onclick='equipmentEdit(" + eqt.Id + ", 0, " + index + ")'>More Details</button><button onclick='equipmentEdit(" + eqt.Id + ", 1, " + index + ")'>Edit</button></td>" +
                         "</tr>";
@@ -792,29 +795,32 @@ namespace Banger_and_Co.Controllers
             return Json(html);
         }
 
-        [System.Web.Http.HttpPost]
-        public async Task<JsonResult> AddEquipment(string name, string stock, IFormFile imageFile)
+        [HttpPost]
+        //public JsonResult AddEquipment(EquipmentViewModel equipment)
+        public JsonResult AddEquipment([FromForm] string equipmentName, string type, int stock)
         {
-            string location = "/Equipment Images";
-            string dbName = null;
-
-            dbName = _fileUploader.UploadFileAsync(imageFile, name, location).Result;
-
-            if (dbName != null)
+            if(equipmentName != null)
             {
-                Equipment equipment = new Equipment
+                Equipment eqt = new Equipment
                 {
-                    EquipmentName = name,
-                    NumberOfPieces = Int32.Parse(stock),
-                    ImageUrl = dbName
+                    EquipmentName = equipmentName,
+                    Type = type,
+                    NumberOfPieces = stock
                 };
 
-                _equipmentService.AddEquipment(equipment);
+                _equipmentService.AddEquipment(eqt);
 
                 return Json("Success");
             }
 
             return Json("Failure");
         }
+    }
+
+    public class EquipmentViewModel
+    {
+        public string EquipmentName { get; set; }
+        public string Type { get; set; }
+        public int NumberOfPieces { get; set; }
     }
 }

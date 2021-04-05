@@ -187,10 +187,3 @@ X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger an
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\obj\Debug\netcoreapp3.1\Razor\Views\Booking\MakeBooking.cshtml.g.cs
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\ServiceLayer.dll
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\Banger and Co\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll

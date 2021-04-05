@@ -10,7 +10,8 @@ namespace DataAccessLayer.Models
     {
         public int Id { get; set; }
         public string EquipmentName { get; set; }
+        public string Type { get; set; }
         public int NumberOfPieces { get; set; }
-        public string ImageUrl { get; set; }
+        //public string ImageUrl { get; set; }
     }
 }

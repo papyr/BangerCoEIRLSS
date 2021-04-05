@@ -38,7 +38,7 @@ namespace Banger_and_Co.Controllers
             return View();
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<IActionResult> GetAvailableVehicles()
         {
             return View();

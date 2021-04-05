@@ -746,12 +746,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -923,12 +923,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -1335,12 +1335,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -1678,12 +1678,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -1798,12 +1798,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -2141,12 +2141,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -2261,12 +2261,12 @@ body{
                             width: 1.25rem;
 
                             svg{
-                                fill: gray;
+                                fill: black;
                             }
 
                             &:hover{
                                 svg{
-                                    fill: black;
+                                    fill: red;
                                 }
                             }
                         }
@@ -2294,6 +2294,15 @@ body{
 
                                 table{
                                     tr{
+                                        td{
+                                            select,
+                                            input{
+                                                margin-bottom: .5rem;
+                                            }
+                                            select{
+                                                width: 100% !important;
+                                            }
+                                        }
                                         &:nth-of-type(2),
                                         &:nth-of-type(3),
                                         &:nth-of-type(4){
@@ -2440,30 +2449,38 @@ body{
                             padding: .5rem 0rem;
                             border-bottom: 1px solid $lightblue;
                             text-align: start;
+                            width: 20%;
 
-                            &:nth-child(1),
+                            /* &:nth-child(1),
                             &:nth-child(2),
                             &:nth-child(3){
                                 width: 20%;
                             }
                             &:nth-child(4){
-                                width: 40%;
+                                width: 10%;
                             }
+                            &:nth-child(5){
+                                width: 30%;
+                            } */
                         }
 
                         td{
                             padding: .5rem 0rem;
                             border-bottom: 1px solid gray;
                             text-align: start;
+                            width: 20%;
 
-                            &:nth-child(1),
+                            /* &:nth-child(1),
                             &:nth-child(2),
                             &:nth-child(3){
                                 width: 20%;
                             }
                             &:nth-child(4){
-                                width: 40%;
+                                width: 10%;
                             }
+                            &:nth-child(5){
+                                width: 30%;
+                            } */
                             
                             &:last-child{
                                 div{

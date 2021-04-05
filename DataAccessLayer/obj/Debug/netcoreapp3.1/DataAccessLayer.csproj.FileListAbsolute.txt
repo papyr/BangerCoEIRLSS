@@ -15,7 +15,6 @@ X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger an
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
-X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csprojAssemblyReference.cache
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
 X:\User\Documents\College\3rd Year\Sem 1\Assignments\EIRLSS Individual\Banger and Co\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.csproj.CoreCompileInputs.cache

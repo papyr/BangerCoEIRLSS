@@ -1679,11 +1679,11 @@ body .admin_dashboard_content_users_popup_overlay_close {
 }
 
 body .admin_dashboard_content_users_popup_overlay_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_users_popup_overlay_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_users_popup_overlay_content {
@@ -1888,11 +1888,11 @@ body .admin_dashboard_content_users_popup_addadmin_close {
 }
 
 body .admin_dashboard_content_users_popup_addadmin_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_users_popup_addadmin_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_users_popup_addadmin_content {
@@ -2385,11 +2385,11 @@ body .admin_dashboard_content_bookings_popup_overlay_close {
 }
 
 body .admin_dashboard_content_bookings_popup_overlay_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_bookings_popup_overlay_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_bookings_popup_overlay_content {
@@ -2782,11 +2782,11 @@ body .admin_dashboard_content_vehicles_popup_overlay_close {
 }
 
 body .admin_dashboard_content_vehicles_popup_overlay_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_vehicles_popup_overlay_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_vehicles_popup_overlay_content {
@@ -2919,11 +2919,11 @@ body .admin_dashboard_content_vehicles_popup_addvehicle_close {
 }
 
 body .admin_dashboard_content_vehicles_popup_addvehicle_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_vehicles_popup_addvehicle_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_vehicles_popup_addvehicle_content {
@@ -3288,11 +3288,11 @@ body .admin_dashboard_content_equipment_popup_overlay_close {
 }
 
 body .admin_dashboard_content_equipment_popup_overlay_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_equipment_popup_overlay_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_equipment_popup_overlay_content {
@@ -3425,11 +3425,11 @@ body .admin_dashboard_content_equipment_popup_addequipment_close {
 }
 
 body .admin_dashboard_content_equipment_popup_addequipment_close svg {
-  fill: gray;
+  fill: black;
 }
 
 body .admin_dashboard_content_equipment_popup_addequipment_close:hover svg {
-  fill: black;
+  fill: red;
 }
 
 body .admin_dashboard_content_equipment_popup_addequipment_content {
@@ -3454,6 +3454,15 @@ body .admin_dashboard_content_equipment_popup_addequipment_content_heading {
 
 body .admin_dashboard_content_equipment_popup_addequipment_content_form {
   padding-bottom: 2rem;
+}
+
+body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr td select,
+body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr td input {
+  margin-bottom: .5rem;
+}
+
+body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr td select {
+  width: 100% !important;
 }
 
 body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr:nth-of-type(2) td input, body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr:nth-of-type(3) td input, body .admin_dashboard_content_equipment_popup_addequipment_content_form table tr:nth-of-type(4) td input {
@@ -3613,28 +3622,36 @@ body .admin_dashboard_content_equipment_equipment_table th {
   padding: .5rem 0rem;
   border-bottom: 1px solid #245787;
   text-align: start;
-}
-
-body .admin_dashboard_content_equipment_equipment_table th:nth-child(1), body .admin_dashboard_content_equipment_equipment_table th:nth-child(2), body .admin_dashboard_content_equipment_equipment_table th:nth-child(3) {
   width: 20%;
-}
-
-body .admin_dashboard_content_equipment_equipment_table th:nth-child(4) {
-  width: 40%;
+  /* &:nth-child(1),
+                            &:nth-child(2),
+                            &:nth-child(3){
+                                width: 20%;
+                            }
+                            &:nth-child(4){
+                                width: 10%;
+                            }
+                            &:nth-child(5){
+                                width: 30%;
+                            } */
 }
 
 body .admin_dashboard_content_equipment_equipment_table td {
   padding: .5rem 0rem;
   border-bottom: 1px solid gray;
   text-align: start;
-}
-
-body .admin_dashboard_content_equipment_equipment_table td:nth-child(1), body .admin_dashboard_content_equipment_equipment_table td:nth-child(2), body .admin_dashboard_content_equipment_equipment_table td:nth-child(3) {
   width: 20%;
-}
-
-body .admin_dashboard_content_equipment_equipment_table td:nth-child(4) {
-  width: 40%;
+  /* &:nth-child(1),
+                            &:nth-child(2),
+                            &:nth-child(3){
+                                width: 20%;
+                            }
+                            &:nth-child(4){
+                                width: 10%;
+                            }
+                            &:nth-child(5){
+                                width: 30%;
+                            } */
 }
 
 body .admin_dashboard_content_equipment_equipment_table td:last-child div {

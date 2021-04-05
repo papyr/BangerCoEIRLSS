@@ -15,6 +15,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Http;
+using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 
 namespace Banger_and_Co.Controllers
 {
@@ -54,7 +55,7 @@ namespace Banger_and_Co.Controllers
             return View();
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<IActionResult> SignIn([FromUri] string email, string password)
         {
             if(User.Identity.Name != null)
@@ -85,7 +86,7 @@ namespace Banger_and_Co.Controllers
             return Json("Please enter valid login credentials");
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<IActionResult> Join([FromUri] string name, string email, string phone, string pwd, DateTime dob)
         {
             if (User.Identity.Name != null)
@@ -117,7 +118,7 @@ namespace Banger_and_Co.Controllers
             return Json("failure");
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public async Task<IActionResult> UploadVerfication(IFormFile licenseimg, IFormFile idimg, string useremail)
         {
             User user = await _userManager.FindByEmailAsync(useremail);
@@ -174,7 +175,7 @@ namespace Banger_and_Co.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public IActionResult CheckEmailPhone([FromUri] string email, string phone)
         {
             var emailCheck = _db.Users.Where(u => u.Email.Equals(email)).FirstOrDefault();
